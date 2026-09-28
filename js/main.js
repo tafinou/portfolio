@@ -7,7 +7,7 @@ const T = {
     "stats.projects":"applications in production","stats.back":"server side","stats.front":"user interface",
     "about.title":"About","about.p1":"I am a Full-Stack Java / Angular analyst developer building management applications for public institutions and companies: mail digitisation, overtime tracking, number management.",
     "about.p2":"I work across the stack: Java API, database and Angular interface, with a focus on clean code, security and usability for business users.",
-    "about.edu":"Education","about.eduv":"Professional degree in business computing",
+    "about.edu":"Education","about.eduv":"Professional bachelor's degree in business computing",
     "about.loc":"Location","about.remote":"Remote OK","about.lang":"Languages","about.avail":"Availability","about.open":"Open to opportunities",
     "skills.title":"Skills","skills.data":"Data","skills.msg":"Messaging","skills.tools":"Tools",
     "projects.title":"Projects","projects.b1":"Public administration · AWI","projects.b2":"HR management · Yas","projects.b3":"Telecoms · Yas",
