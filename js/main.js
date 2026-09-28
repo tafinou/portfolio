@@ -1,11 +1,11 @@
 const T = {
   en: {
     "nav.about":"About","nav.skills":"Skills","nav.projects":"Projects","nav.experience":"Experience","nav.contact":"Contact",
-    "hero.hi":"Hi, I'm","hero.role":"Java / Angular Developer",
+    "hero.hi":"Hi, I'm","hero.role":"Full-Stack Analyst Developer",
     "hero.lead":"I design and build robust enterprise web applications with Java and Angular for public administrations and organisations that demand reliability and security.",
     "hero.work":"View my work","hero.contact":"Get in touch","hero.cv":"Download my CV",
     "stats.projects":"applications in production","stats.back":"server side","stats.front":"user interface",
-    "about.title":"About","about.p1":"I am a Java / Angular developer building management applications for public institutions and companies: mail digitisation, overtime tracking, number management.",
+    "about.title":"About","about.p1":"I am a Full-Stack Java / Angular analyst developer building management applications for public institutions and companies: mail digitisation, overtime tracking, number management.",
     "about.p2":"I work across the stack: Java API, database and Angular interface, with a focus on clean code, security and usability for business users.",
     "about.loc":"Location","about.remote":"Remote OK","about.lang":"Languages","about.avail":"Availability","about.open":"Open to opportunities",
     "skills.title":"Skills","skills.data":"Data","skills.tools":"Tools",
@@ -13,9 +13,9 @@ const T = {
     "projects.d1":"Mail management application for the Ministry of Finance and Budget: registration, tracking, assignment and archiving of incoming and outgoing mail.",
     "projects.d2":"Overtime management application: declaration, hierarchical validation and tracking of staff attendance time.",
     "projects.d3":"Number management and swap application, developed at Yas.",
-    "exp.title":"Experience","exp.now":"Present","exp.r1":"Java / Angular Developer · Yas","exp.c1":"Development of management applications for the telecom operator, including NMS Swap.",
-    "exp.r2":"Developer · SETER","exp.c2":"Design and development of Java and Angular web management applications.",
-    "exp.r3":"Developer · AWI","exp.c3":"Development and maintenance of business applications.",
+    "exp.title":"Experience","exp.now":"Present","exp.r1":"Full-Stack Analyst Developer · Yas","exp.c1":"Development of management applications for the telecom operator, including NMS Swap.",
+    "exp.r2":"Full-Stack Analyst Developer · SETER","exp.c2":"Design and development of Java and Angular web management applications.",
+    "exp.r3":"Full-Stack Analyst Developer · AWI","exp.c3":"Development and maintenance of business applications.",
     "contact.title":"Contact","contact.lead":"Got a project, a role or just want to chat? My inbox is always open.","contact.cta":"Say hello",
     "footer":"Designed and built with care."
   }
