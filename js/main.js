@@ -9,13 +9,13 @@ const T = {
     "about.p2":"I work across the stack: Java API, database and Angular interface, with a focus on clean code, security and usability for business users.",
     "about.loc":"Location","about.remote":"Remote OK","about.lang":"Languages","about.avail":"Availability","about.open":"Open to opportunities",
     "skills.title":"Skills","skills.data":"Data","skills.tools":"Tools",
-    "projects.title":"Projects","projects.b1":"Public administration","projects.b2":"HR management","projects.b3":"Telecoms · Yas",
+    "projects.title":"Projects","projects.b1":"Public administration · AWI","projects.b2":"HR management · Yas","projects.b3":"Telecoms · Yas",
     "projects.d1":"Mail management application for the Ministry of Finance and Budget: registration, tracking, assignment and archiving of incoming and outgoing mail.",
     "projects.d2":"Overtime management application: declaration, hierarchical validation and tracking of staff attendance time.",
     "projects.d3":"Number management and swap application, developed at Yas.",
-    "exp.title":"Experience","exp.now":"Present","exp.r1":"Full-Stack Analyst Developer · Yas","exp.c1":"Development of management applications for the telecom operator, including NMS Swap.",
+    "exp.title":"Experience","exp.now":"Present","exp.r1":"Full-Stack Analyst Developer · Yas","exp.c1":"Development of management applications for the telecom operator, including TAM and NMS Swap.",
     "exp.r2":"Full-Stack Analyst Developer · SETER","exp.c2":"Design and development of Java and Angular web management applications.",
-    "exp.r3":"Full-Stack Analyst Developer · AWI","exp.c3":"Development and maintenance of business applications.",
+    "exp.r3":"Full-Stack Analyst Developer · AWI","exp.c3":"Development of business applications, including e-Courrier for the Ministry of Finance and Budget.",
     "contact.title":"Contact","contact.lead":"Got a project, a role or just want to chat? My inbox is always open.","contact.cta":"Say hello",
     "footer":"Designed and built with care."
   }
