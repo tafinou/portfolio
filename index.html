@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tafinou — Développeur Web & Logiciel</title>
+<meta name="description" content="Portfolio de Tafinou, développeur web et logiciel : projets, compétences et contact.">
+<meta property="og:title" content="Tafinou — Développeur Web & Logiciel">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="nav">
+  <a href="#top" class="logo">tafinou<span>.dev</span></a>
+  <nav>
+    <a href="#about" data-i18n="nav.about">À propos</a>
+    <a href="#skills" data-i18n="nav.skills">Compétences</a>
+    <a href="#projects" data-i18n="nav.projects">Projets</a>
+    <a href="#experience" data-i18n="nav.experience">Parcours</a>
+    <a href="#contact" data-i18n="nav.contact">Contact</a>
+  </nav>
+  <div class="tools">
+    <button id="lang" aria-label="Language">EN</button>
+    <button id="theme" aria-label="Theme">◐</button>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <p class="eyebrow mono" data-i18n="hero.hi">Bonjour, je suis</p>
+    <h1>Tafinou</h1>
+    <h2 data-i18n="hero.role">Développeur web & logiciel</h2>
+    <p class="lead" data-i18n="hero.lead">Je conçois et développe des applications web performantes, accessibles et maintenables — du prototype à la mise en production.</p>
+    <div class="cta">
+      <a class="btn primary" href="#projects" data-i18n="hero.work">Voir mes projets</a>
+      <a class="btn" href="#contact" data-i18n="hero.contact">Me contacter</a>
+      <a class="btn ghost" href="assets/cv.pdf" data-i18n="hero.cv">Télécharger mon CV</a>
+    </div>
+    <ul class="stats">
+      <li><b>3+</b><span data-i18n="stats.years">ans d'expérience</span></li>
+      <li><b>20+</b><span data-i18n="stats.projects">projets réalisés</span></li>
+      <li><b>100%</b><span data-i18n="stats.passion">passion du code</span></li>
+    </ul>
+  </section>
+
+  <section id="about">
+    <h3 class="title"><span class="mono">01.</span> <i data-i18n="about.title">À propos</i></h3>
+    <div class="about">
+      <div>
+        <p data-i18n="about.p1">Développeur passionné, j'aime transformer des idées en produits concrets. Je travaille sur l'ensemble de la chaîne : interface, API, base de données et déploiement.</p>
+        <p data-i18n="about.p2">Je m'attache à écrire un code propre, testé et documenté, avec une attention particulière portée à l'expérience utilisateur et à la performance.</p>
+        <p data-i18n="about.p3">Toujours en veille technologique, je recherche des projets stimulants où apprendre et apporter de la valeur.</p>
+      </div>
+      <ul class="facts">
+        <li><b data-i18n="about.loc">Localisation</b> Dakar, Sénégal · <span data-i18n="about.remote">Remote OK</span></li>
+        <li><b data-i18n="about.lang">Langues</b> Français · English</li>
+        <li><b data-i18n="about.avail">Disponibilité</b> <span class="dot"></span> <span data-i18n="about.open">Ouvert aux opportunités</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h3 class="title"><span class="mono">02.</span> <i data-i18n="skills.title">Compétences</i></h3>
+    <div class="grid skills">
+      <article class="card"><h4>Frontend</h4><p class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>TypeScript</span><span>React</span></p></article>
+      <article class="card"><h4>Backend</h4><p class="tags"><span>Node.js</span><span>Express</span><span>Python</span><span>REST API</span><span>PHP</span></p></article>
+      <article class="card"><h4 data-i18n="skills.data">Données</h4><p class="tags"><span>PostgreSQL</span><span>MySQL</span><span>MongoDB</span></p></article>
+      <article class="card"><h4>DevOps & <span data-i18n="skills.tools">Outils</span></h4><p class="tags"><span>Git / GitHub</span><span>Docker</span><span>CI/CD</span><span>Linux</span></p></article>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h3 class="title"><span class="mono">03.</span> <i data-i18n="projects.title">Projets</i></h3>
+    <div class="grid projects">
+      <article class="card project">
+        <span class="mono badge" data-i18n="projects.web">Application web</span>
+        <h4>Nom du projet 1</h4>
+        <p data-i18n="projects.d1">Description courte : le problème résolu, ta contribution et l'impact obtenu.</p>
+        <p class="tags"><span>React</span><span>Node.js</span><span>PostgreSQL</span></p>
+        <p class="links"><a href="#" data-i18n="projects.demo">Démo</a><a href="https://github.com/tafinou" data-i18n="projects.code">Code source</a></p>
+      </article>
+      <article class="card project">
+        <span class="mono badge" data-i18n="projects.api">API / Backend</span>
+        <h4>Nom du projet 2</h4>
+        <p data-i18n="projects.d2">Description courte : le problème résolu, ta contribution et l'impact obtenu.</p>
+        <p class="tags"><span>Python</span><span>Docker</span><span>REST</span></p>
+        <p class="links"><a href="#" data-i18n="projects.demo">Démo</a><a href="https://github.com/tafinou" data-i18n="projects.code">Code source</a></p>
+      </article>
+      <article class="card project">
+        <span class="mono badge" data-i18n="projects.tool">Outil / Logiciel</span>
+        <h4>Nom du projet 3</h4>
+        <p data-i18n="projects.d3">Description courte : le problème résolu, ta contribution et l'impact obtenu.</p>
+        <p class="tags"><span>TypeScript</span><span>CLI</span><span>CI/CD</span></p>
+        <p class="links"><a href="#" data-i18n="projects.demo">Démo</a><a href="https://github.com/tafinou" data-i18n="projects.code">Code source</a></p>
+      </article>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h3 class="title"><span class="mono">04.</span> <i data-i18n="exp.title">Parcours</i></h3>
+    <ol class="timeline">
+      <li><span class="mono">2024 — <span data-i18n="exp.now">Présent</span></span><h4 data-i18n="exp.r1">Développeur Full-Stack</h4><p data-i18n="exp.c1">Entreprise / Freelance — conception et développement d'applications web sur mesure.</p></li>
+      <li><span class="mono">2022 — 2024</span><h4 data-i18n="exp.r2">Développeur Web</h4><p data-i18n="exp.c2">Entreprise — intégration, développement d'API et maintenance de produits en production.</p></li>
+      <li><span class="mono">2019 — 2022</span><h4 data-i18n="exp.r3">Formation en informatique</h4><p data-i18n="exp.c3">École / Université — diplôme en développement logiciel.</p></li>
+    </ol>
+  </section>
+
+  <section id="contact" class="contact">
+    <h3 class="title"><span class="mono">05.</span> <i data-i18n="contact.title">Contact</i></h3>
+    <p class="lead" data-i18n="contact.lead">Un projet, une mission ou simplement envie d'échanger ? Ma boîte mail est toujours ouverte.</p>
+    <a class="btn primary" href="mailto:dioptapha49@gmail.com" data-i18n="contact.cta">Écrivez-moi</a>
+    <p class="social"><a href="https://github.com/tafinou">GitHub</a><a href="#">LinkedIn</a><a href="mailto:dioptapha49@gmail.com">dioptapha49@gmail.com</a></p>
+  </section>
+</main>
+
+<footer>© <span id="year"></span> Tafinou · <span data-i18n="footer">Conçu et développé avec soin.</span></footer>
+<script src="js/main.js"></script>
+</body>
+</html>
