@@ -22,7 +22,7 @@ h1{font-size:clamp(3rem,9vw,5.5rem);font-weight:800;line-height:1.05;letter-spac
 .btn{display:inline-block;padding:12px 22px;border-radius:10px;border:1px solid var(--line);font-weight:600;transition:.2s}
 .btn:hover{border-color:var(--accent);transform:translateY(-2px)}
 .btn.primary{background:var(--accent);color:#052018;border-color:var(--accent)}
-.btn.ghost{color:var(--muted)}
+.btn[hidden]{display:none}.btn.ghost{color:var(--muted)}
 .stats{list-style:none;display:flex;flex-wrap:wrap;gap:36px;margin-top:20px}
 .stats b{display:block;font-size:1.8rem;color:var(--accent)}.stats span{color:var(--muted);font-size:.9rem}
 .title{font-size:1.8rem;margin-bottom:34px;display:flex;align-items:center;gap:12px}
